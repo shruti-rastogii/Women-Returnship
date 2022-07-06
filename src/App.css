@@ -1,0 +1,156 @@
+body {
+  background-color: white;
+}
+
+::-webkit-scrollbar {display:none;}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  display: flex;
+}
+
+.heart {
+  width: 30px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.heart:active {
+  font-size: 25px;
+}
+
+.banner {
+  width: 100%
+}
+
+.cartlist{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+}
+.cartitem {
+  padding: 1rem;
+  height:40px;
+  margin: 1rem;
+  border: 1px solid gray;
+  width: 800px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+}
+
+.input{
+  border-radius: 2px;
+  height: 30px;
+  width: 60px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.title {
+  color: lightcoral;
+  font-size: xx-large;
+  height: 100%;
+  align-items: center;
+  margin-left: 1rem;
+  width:80%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.total{
+  height: 40px;
+  width: 600px;
+  text-align: center;
+  align-self: center;
+  font-size: x-large;
+  margin: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.thrift {
+  color: white;
+}
+
+.navbutton {
+  height: 20px;
+  margin: 1rem;
+  background-color: black;
+  color: white;
+  border-width: 0;
+  align-self: center;
+  align-items: center;
+}
+
+.navbutton:hover{
+  color: lightcoral;
+}
+
+.nothing {
+  width: 100%;
+  text-align: center;
+  line-height: 80px;
+  margin-top: 1rem;
+  height: 80px;
+  border-radius: 10px;
+  background-color: lightgray;
+  font-size: x-large;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 400px;
+}
+
+.card {
+  width: 180px;
+  height: 240px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 3px 3px #AAAAAA;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cardhead {
+  height: 20px;
+  text-align: center;
+  margin: 1rem;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.cardoptions{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  color: white;
+  font-size: large;
+  font-weight: bolder;
+  width: 200px;
+  background-color: lightcoral;
+  height: 60px;
+  border-radius: 30px;
+  border: 0px solid black;
+  margin: 2rem;
+  cursor: pointer;
+}
