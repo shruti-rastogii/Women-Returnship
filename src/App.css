@@ -21,6 +21,18 @@ body {
   font-size: 25px;
 }
 
+.imageShape {
+  object-fit:cover; 
+  height:140px; 
+  width:120px;
+}
+
+.imageBig {
+  object-fit:cover; 
+  height:400px; 
+  width:360px;
+}
+
 .banner {
   width: 100%
 }
@@ -79,7 +91,7 @@ body {
   padding: 1rem;
 }
 
-.thrift {
+.titleName {
   color: white;
 }
 

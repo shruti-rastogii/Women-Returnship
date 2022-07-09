@@ -1,12 +1,13 @@
 [
     {
-        "name": "Alpha",
-        "color": "red",
-        "type": "shirt",
-        "info": "100% cotton fabric, long lasting and comfortable quality",
-        "price": "Rs. 120",
-	"seller": "Peter England",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_iEE--5aLiWtRCI5FEIuoSQs3M6THbbygQQ&usqp=CAU"
+        "name": "Senior ML Developer",
+        "skills": ["Machine Learning","Data Analysis","Data Science"],
+        "type": "Full-time",
+        "info": "Expert on using data to train models with experience in automating processes like image classification, speech recognition, and market forecasting.",
+        "salary": "Rs. 150,000",
+	    "company": "Google",
+        "location": "Bangalore",
+        "image": "https://images.unsplash.com/photo-1561557944-6e7860d1a7eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjaGluZSUyMGxlYXJuaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
     },
     {
         "name": "Beta",
@@ -14,8 +15,8 @@
         "type": "shirt",
         "info": "100% cotton fabric, long lasting and comfortable quality",
         "price": "Rs. 90",
-	"seller": "Van Heusen",
-	"image": "https://pngimg.com/uploads/dress_shirt/dress_shirt_PNG8069.png"
+	    "seller": "Van Heusen",
+	    "image": "https://pngimg.com/uploads/dress_shirt/dress_shirt_PNG8069.png"
     },
     {
         "name": "Gamma",

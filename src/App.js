@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react"
 import data from "./data.json";
-import banner from "./banner.jpg"
+import banner from "./banner.png"
 import GLogin from './Login';
 import Logout from './Logout';
 
@@ -9,20 +9,20 @@ import Logout from './Logout';
   const Navbar = React.memo((props) => {
     return <div className="navbar">
       <div className="title" onClick={()=> props.setPage("home")}>
-        <div className="thrift">Thrift</div>
-        Shop
+        <div className="titleName">Code</div>
+        Hers
       </div>
       <button className="navbutton" onClick={()=> props.setPage("home")} style={{cursor: "pointer"}}>
         Home
       </button>
-      <button className="navbutton" onClick={()=> props.setPage("products")} style={{cursor: "pointer"}}>
-        Products
+      <button className="navbutton" onClick={()=> props.setPage("jobs")} style={{cursor: "pointer"}}>
+        Jobs{/* Job Opportunities and Mentorship Programmes */}
       </button>
-      <button className="navbutton" onClick={()=>props.setPage("wishlist")} style={{cursor: "pointer"}}>
-        Wishlist
+      <button className="navbutton" onClick={()=>props.setPage("tracks")} style={{cursor: "pointer"}}>
+        Tracks{/* Course Tracks and Career Roadmaps */}
       </button>
-      <button className="navbutton" onClick={()=>props.setPage("cart")} style={{cursor: "pointer"}}>
-        Cart
+      <button className="navbutton" onClick={()=>props.setPage("applications")} style={{cursor: "pointer"}}>
+        Applications
       </button>
       <button className="navbutton" onClick={()=>props.setPage("login")} style={{cursor: "pointer"}}>
         {props.loggedin? <>Account</> : <>Login</>}
@@ -32,16 +32,16 @@ import Logout from './Logout';
 
   const NothingHere = React.memo((props) => {
       return <div className="nothing">
-        {props.test==="yes"? <>No such items are available</>:<>There's nothing here! Add some items from the products page.</>}</div>
+        {props.test==="yes"? <>No such opportunities are available</>:<>Apply to job openings or enrol in courses and mentorship programmes from the main page.</>}</div>
   })
 
   const Products = React.memo((props) => {
     const forceUpdate = useForceUpdate();
-    const [colour, setColour] = React.useState("any");
+    const [colour, setRole] = React.useState("any");
     const [type, setType] = React.useState("any");
     const [search, setSearch] = React.useState("");
-    const updatecolor =() => {
-      setColour(document.getElementById("colour").value)
+    const updaterole =() => {
+      setRole(document.getElementById("skills").value)
       forceUpdate()
     }
     const updatetype =() => {
@@ -61,19 +61,21 @@ import Logout from './Logout';
       return <NothingHere test="no"/>
       return <div>
         <div className="cartitem" style={{width:"95%", alignSelf:"center"}}>
-        Filter by colour: <select name="colour" id="colour" onChange={()=> updatecolor()}>
-        <option value="any">Any</option>
-        <option value="red">Red</option>
-        <option value="blue">Blue</option>
-        <option value="green">Green</option>
-        <option value="yellow">Yellow</option>
+        Filter by role: <select name="skills" id="skills" onChange={()=> updaterole()}>
+        <option value="Any">Any</option>
+        <option value="Data Science">Data Science</option>
+        <option value="UIX">UIX</option>
+        <option value="Product Manager">Product Manager</option>
+        <option value="Software Developer">Software Developer</option>
+        <option value="Digital Marketing">Digital Marketing</option>
+        <option value="HR Manager">HR Manager</option>
         </select>
         Filter by type: <select name="type" id="type" onChange={()=> updatetype()}>
-        <option value="any">Any</option>
-        <option value="shirt">Shirt</option>
-        <option value="pant">Pant</option>
-        <option value="tshirt">T-Shirt</option>
-        <option value="shorts">Shorts</option>
+        <option value="Any">Any</option>
+        <option value="Internship">Internship</option>
+        <option value="Full-time">Full-time</option>
+        <option value="Part-time">Part-time</option>
+        <option value="Remote">Remote</option>
         </select>
         Search: <input id="search" onChange={()=> updatesearch()}></input>
         </div><div className="products">{props.data.map(function (item, i) {
@@ -96,10 +98,10 @@ import Logout from './Logout';
         {props.info.name}
       </div>
       <div className="cardhead" style={{height:"140px"}} onClick={()=>{props.setPrev(props.page); props.setPage("info"); props.setProdInfo(props.info); props.update()}}>
-      <img height="140px" width="120px" src={props.info.image}/>
+      <img className = "imageShape" src={props.info.image}/>
       </div>
       <div className="cardoptions">
-        {props.info.price}
+        {props.info.salary}
         <div className="heart" onClick={()=> {if (!props.wishlist.includes(props.info)){
           let temp=props.wishlist
           temp.push(props.info)
@@ -130,10 +132,10 @@ import Logout from './Logout';
           temp.push(props.info)
           props.setCart(temp)
           props.update();
-          alert("Item added to cart!")
+          alert("Applied Successfully!")
         }
         else {
-          alert("Item is already in cart! Go to cart to modify quantity")
+          alert("Already applied! Go to Applications page to withdraw from position.")
         }}}>
         &#128722;
         </div>
@@ -169,7 +171,7 @@ const Info = React.memo((props) => {
     const update = useForceUpdate();
     return <div style={{display:"flex", flexDirection:"row", margin:"1rem"}}>
       
-      <div style={{display:"flex", flexDirection:"column"}}><button className="login" style={{marginTop:0, height:"30px", width:"90px"}} onClick={()=>props.setPage(props.prev)}> Back</button><img height="400px" width="360px" src={props.item.image}/></div>
+      <div style={{display:"flex", flexDirection:"column"}}><button className="login" style={{marginTop:0, height:"30px", width:"90px"}} onClick={()=>props.setPage(props.prev)}> Back</button><img className='imageBig' src={props.item.image}/></div>
       <div style={{display:"flex", flexDirection:"column", margin:"2rem", border: "1px solid gray"}}>
       <div style={{margin:"2rem", fontSize:"40px", marginTop:"2rem", textDecoration:"underline", textDecorationColor:"lightcoral"}}>{props.item.name}</div>
       <div style={{margin:"2rem", fontSize:"30px", marginTop:"1rem"}}>{props.item.price}</div>
@@ -332,17 +334,17 @@ const App = () => {
         {
           {
             "home": <Home/>,
-            "products": loggedin?<Products page={page} setPrev={setPrev} setPage={setPage} setProdInfo={setProdInfo} data={data} wishlist={wishlist} cart={cart} setWishList={setWishList} setCart={setCart}/>: <Login setLoggedin={setLoggedin} loggedin={loggedin}/>,
+            "jobs": loggedin?<Products page={page} setPrev={setPrev} setPage={setPage} setProdInfo={setProdInfo} data={data} wishlist={wishlist} cart={cart} setWishList={setWishList} setCart={setCart}/>: <Login setLoggedin={setLoggedin} loggedin={loggedin}/>,
             "login": <Login setLoggedin={setLoggedin} loggedin={loggedin}/>,
             "checkout": <Checkout cart={cart} quantities={quantities}/>,
             "info": <Info item={prodInfo} setPage={setPage} prev={prev} wishlist={wishlist} cart={cart} setWishList={setWishList} setCart={setCart}/>,
-            "cart": loggedin?<Cart page={page} setPrev={setPrev} setProdInfo={setProdInfo} items={cart} setCart={setCart} setPage={setPage} setQuantities={setQuantities}/>: <Login setLoggedin={setLoggedin} loggedin={loggedin}/>,
-            "wishlist": loggedin?<Products page={page} setPrev={setPrev} setPage={setPage} setProdInfo={setProdInfo} data={wishlist} wishlist={wishlist} cart={cart} setWishList={setWishList} setCart={setCart}/>: <Login setLoggedin={setLoggedin} loggedin={loggedin}/>
+            "applications": loggedin?<Cart page={page} setPrev={setPrev} setProdInfo={setProdInfo} items={cart} setCart={setCart} setPage={setPage} setQuantities={setQuantities}/>: <Login setLoggedin={setLoggedin} loggedin={loggedin}/>,
+            "tracks": loggedin?<Products page={page} setPrev={setPrev} setPage={setPage} setProdInfo={setProdInfo} data={wishlist} wishlist={wishlist} cart={cart} setWishList={setWishList} setCart={setCart}/>: <Login setLoggedin={setLoggedin} loggedin={loggedin}/>
           }[page]
         }
         <div className="navbar" style={{backgroundColor:"lightcoral"}}>
-          <div className="title" style={{fontSize:"20px", color:"white", textDecoration:"underline", cursor:"pointer"}} onClick={()=>alert("Sike")}>File a complaint or send us a suggestion</div>
-          <div className="title" style={{fontSize:"20px", color:"white", cursor:"default"}}>Address: BITS Pilani, K. K. Birla Goa Campus, Zuarinagar, Goa - 403726</div>
+          <div className="title" style={{fontSize:"18px", color:"white", textDecoration:"underline", cursor:"pointer"}} onClick={()=>alert("Sike")}>File a complaint or send us a suggestion</div>
+          <div className="title" style={{fontSize:"18px", color:"white", cursor:"default"}}>World Headquarters VMware, Inc. 3401 Hillview Ave, Palo Alto, CA 94304, USA</div>
         </div>
     </div>
   );
