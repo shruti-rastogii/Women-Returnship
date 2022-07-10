@@ -1,147 +1,244 @@
 [
     {
         "name": "Senior ML Developer",
-        "skills": ["Machine Learning","Data Analysis","Data Science"],
+        "skills": [
+            "Machine Learning",
+            "Data Analysis",
+            "Data Science"
+        ],
         "type": "Full-time",
         "info": "Expert on using data to train models with experience in automating processes like image classification, speech recognition, and market forecasting.",
-        "salary": "Rs. 150,000",
-	    "company": "Google",
+        "salary": "32lpa CTC",
         "location": "Bangalore",
-        "image": "https://images.unsplash.com/photo-1561557944-6e7860d1a7eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjaGluZSUyMGxlYXJuaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+        "company": "Google",
+        "image": "https://cdn.vox-cdn.com/thumbor/p01ezbiuDHgRFQ-htBCd7QxaYxo=/0x105:2012x1237/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg"
     },
     {
-        "name": "Beta",
-        "color": "blue",
-        "type": "shirt",
-        "info": "100% cotton fabric, long lasting and comfortable quality",
-        "price": "Rs. 90",
-	    "seller": "Van Heusen",
-	    "image": "https://pngimg.com/uploads/dress_shirt/dress_shirt_PNG8069.png"
+        "name": "React.js Developer",
+        "skills": [
+            "ReactJS",
+            "JASON"
+        ],
+        "type": "Intern",
+        "info": "Shall able to write client-side internet application logic, front-end elements in JavaScript. Needs brief perception of React.js and its main principles with good analytical skills.",
+        "salary": "not disclosed",
+        "location": "Bangalore",
+        "company": "Tejas Networks",
+        "image": "https://s3-symbol-logo.tradingview.com/tejas-networks--600.png"
     },
     {
-        "name": "Gamma",
-        "color": "green",
-        "type": "shirt",
-        "info": "100% cotton fabric, long lasting and comfortable quality",
-        "price": "Rs. 100",
-	"seller": "Louis Phillipe",
-	"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRJof1rpwWz1hXbmXAtd0WjFLmy6b_Jjg1abhDcoyDeoBIpkVhqoVArIUuYzD4uyFZK5A&usqp=CAU"
+        "name": "Java Developer",
+        "skills": [
+            "Java and J2EE",
+            "Kubernetes",
+            "Linux",
+            "Git"
+        ],
+        "type": [
+            "Full-time",
+            "Mid-Senior level"
+        ],
+        "info": "Looking for a remote Senior Java Developer who needs to develop high-quality software, design, identify, prioritize and execute tasks in the software development life cycle",
+        "salary": "22lpa CTC",
+        "location": "Pune",
+        "company": "VISEO",
+        "image": "https://vtlogo.com/wp-content/uploads/2021/05/viseo-vector-logo-small.png"
     },
     {
-        "name": "Delta",
-        "color": "yellow",
-        "type": "shirt",
-        "info": "100% cotton fabric, long lasting and comfortable quality",
-        "price": "Rs. 110",
-	"seller": "Parx",
-	"image": "https://www.theuntraditionalfemale.com/wp-content/uploads/2021/06/Yellow-Shirt-front-1.jpg"
+        "name": "DB Developer",
+        "skills": [
+            "PL/SQL- Unix",
+            "ETL"
+        ],
+        "type": [
+            "Full-time"
+        ],
+        "info": "Experienced with design and implementation of databases",
+        "salary": "15lpa CTC",
+        "location": "Bangalore",
+        "company": "Epsilon",
+        "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADgCAMAAAAt85rTAAAAe1BMVEUAAAD////S0tFtbW2jo6PZ2dh1dXQdHR1ISEhcXFzd3dxwcHD6+vl9fX02Njatrazo6Ofy8vEZGRnExMOpqahlZWUMDAxQUFBgYGDr6+rNzcyPj45DQ0OXl5eBgYHj4+IqKio8OjpWU1MkIyO4uLiJiYgpKSnGxsWUlJRb51IDAAADeElEQVR4nO3YWXuiMBiGYXGpdYc6oOJe7bT//xeO2RNih16dZjx57pOaryHmVQjETgcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHqLavTx6Ckmdy3O5e/QkUupdXi+9R08ipfI06ZSPnkRK5bxzelzAeVk+f+vAatVbn7/WdVSOvvUWsfWg67ma8ospLxezoP/lmkmDiastbv0WpnG+HTlYxW90WRT6yGBAcWx3MHetwdtPxHKeMl9uykO/+utu974tdsW0TeNZ/C/++BfeeIWXf6xCe61+dOw/CQMeTTkImL2b8sjVpm4MEbBrGvcDHoPxsoP9x0AVeq6VNODmfkDz/h11lm02XulLAXWMab7RA5aN/xRpAx5mmr2whmYWKzH7rFZV+QUOqtur/tIbozXgVoao5a37MJWNRkAdK1XAKirLgCpu7r7Z7f3OrQFlhK1pbTIvhgmYDU0rRcBhVPYCvrsLbi+q86hzW8CZKLmv/MW/hEWkqz1JUgWMy0N35YlTKvdmWqybndsCLhsfolxR9aOmiLRfmGNSBZxqdq1XAber1esh9z9+vSIswgBtAcUQR68tL2W9kKpImb4MUq+ibhaNVXTV7D3demO0BZwGZ2hHfU579VJFetMXaeqA408Cujv9aGpqXTdGW0BRuTYLOoeOlKsrJXVA+yATBCyCZ6tZN0rdFlDcPWuvfRJdPtRrHWmlPoRUAXdzzZZlwGW/39/P4o3nQd2ubbstoHgA8x581Fqlb7kmklyI5qkCxj8PeKvoPXI6J9NqCygXSW/3I+99lXstIlWiNqgTBfzrffCenfzeTastoCwVtjnzL3f7ncl77DRRwLj8WcC33+pPyyna2C7JLUOuz5ND5p8d7qTUu6kkAceG3TZ8EvB8uzBno1Kec/bB/E7AoxruqPd2OzX169Preqv2Fba7C7hOGNAK94NxwNzr67Y8cUDDTPaQhdz56i0r9X8IGO4Ho4AfXldv3f884N5Uw4S5e2D3Al6SBJwF7xzuB5+i3m5f7u3y5STDHX3zG+x05l1X3XvHjr2x+tHIP2A+6Xnsc3R1K09Ocffqo86LvN4HN5bRpDex6+bQG3Di30NP+/pYbMbX8LwQx9qfsMShk+/9oAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKD8ARbkIYQq0J2BAAAAAElFTkSuQmCC"
     },
     {
-        "name": "Epsilon",
-        "color": "red",
-        "type": "pant",
-        "info": "100% cotton fabric, long lasting and comfortable quality",
-        "price": "Rs. 220",
-	"seller": "Lee Jeans",
-	"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVce_bk1jIGDj-GbrqNl_zmMuLxAcuQqGOpg&usqp=CAU"
+        "name": "Compliance Analyst",
+        "skills": [
+            "Firm compliance / Risk Compliance-Mutual Fund / Capital Market-Mortgage / Audit Communication BRS - Bank reconciliation statement / Brokerage / Account"
+        ],
+        "type": [
+            "Full-time"
+        ],
+        "info": "Having some exposure to the financial markets and possess knowledge of financial terminologies and financial instruments. Ability to interpret policy and apply them consistently. Must have good analytical skills",
+        "salary": "10lpa CTC",
+        "location": "Kolkata",
+        "company": "pwc",
+        "image": "https://cdn.rundlemall.com/images/stores/P/pwc/_1200x630_fit_center-center_82_none/pwc-logo.jpg?mtime=1645496390"
     },
     {
-        "name": "Zeta",
-        "color": "blue",
-        "type": "pant",
-        "info": "100% cotton fabric, long lasting and comfortable quality",
-        "price": "Rs. 200",
-	"seller": "Levi's",
-	"image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIQEhUQEhIVEhUWEA8VEhUVFQ8VEBUQFRUWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0OGxAPFTAdFR8rKy0tKy03KzctKysrLS0rKy0tMS0tKys3KystLS0rLSsrLSsxKzctLS4rNzArNy03Lf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAAAQcCBggFAwT/xABIEAABAwICBAoGBgYKAwAAAAAAAQIDBBEFBxITIXEGMUFRUmGRkqHBU3KBorHCImJkgpPDMkKys9HSFCMkM0NEc4Oj0wgVF//EABgBAQADAQAAAAAAAAAAAAAAAAABAgME/8QAIBEBAQADAAMAAwEBAAAAAAAAAAECAzERITISE0FRIv/aAAwDAQACEQMRAD8AvEAAAAAAAAAACr2Z1Uq/5afciwqtva5Cy6t+ix7l2IjHKu5EU5NREsm5DTXjL1Fq6486qFVstPVt+5Tf9p+uPN/Dl421Dd8bfJylE25tu8wdu41safqxR5dAtzYwteOSVN8M3kihc2ML9LJ+BP8AynPyql16lt2GcSJfatk57Ku0i68SW1f3/wBYwv0kv4Mv8CFzZwv0kv4Mv8CgpVb+qt96edzBF51TjTsImGN/1N8y+F+Ozcw1OJZl3RL5qh+OXOeiRbNp6p3Xo06J+8v4FJI1Lqlr7TMt+rFH5LidnTByUk3tfEnwubxwR4QsxGmbVMYsd3SNViqiuarHKm1U50svtOZNJEuq+RduRlSjqKZnK2rctvquijsvajuwpnhJPRKsgAGSwAAAAAAAAAAAAAAAAAAAAA1rMiv1GG1L+V0WqTnvKqR7NyOVfYc2ORS788qzRpYYUW2sqNJetkbHX957Ckjo1T0rWCNIffYvHZdxmqkK41VfONvP7TNVtbenxIUW8iBiiKmyy22q2/NdSdG6EbOTm6uM+qCQQy6cdtvMhlfrFySRFiyciKzQqp4OSSBH9WnE+1rc6pK7ulbG15YVGqxSnW+xzpGO60dG9E97RKZz0mOiwAcq4AAAAAAAAAAAAAAAAAAAAApnPiovPTR32tglcqdUj2on7pewq83vOqS+I26NNCni91ve8TREOrD5il6KQSqAuqxVCF5N6GSkcqb0+IENb8EM0D9iGKKEsgimNyUCGR6XB2o1dXTyXsjKqncvqpI1XeB5lwqqm1NipxbxYl1sD40c6SRskTiexjk3ORF8z7HE0AAAAAAAAAAAAAAAAAAAAAHOGZ8qvxOqXmkjam5sUbfJTWD3OHMuliNWv2qZvddo+R4inXjyM6xVSLkqgLIQQpkfKZOLegSze7YiBpCt2mQQkgkkkQiGSAxUgdKZdVmuw2lfzQpGu+JVi+Q2M0HJOfSw5W+jqZm9qMk+c345Mu1rAAFQAAAAAAAAAAAAAAAAAPjWS6Eb39Fj3diKoHLGK1OuqJpenPM/vvV3mfnPnG3YhmdsZihCLkXCGR8H/pIfY+UvP1oKM1aSiWDWmSoBFybEWCEjIggKBd+RTv7FOn21/jDD/Asgq7Iaa8FSzlSdju8y3yFonHn9VpOAAKpAAAAAAAAAAAAAAAADxuGc2hQVb02KlHU29ZY3InjY9k1XNGfQwupXnZGzvysZ8xM6Oc2oSQpKHYyQRYyBIixsWX2CpWYhBE5qOjRyyyovEscaaVlTlRXaDVTmcpryoWvkTh931NSqcTY4WL6yq+RPCIpnfGKZ1oXDjBloa2aBE+hp6cXNqZPpMRN11b9xTwtIt/PfCk0aerROV0D15VRUWSPbzIrZO8VCowvmFCUIQlS6EAAC1sg5LSVjOdlKqfdWVF/aQuEo7I2a1dKzpUj19rZIv5lLxOTZ9NJwABRIAAAAAAAAAAAAAAAAaFnVU6GHaHpKmBnd0pfyzfSr8+JrQUzOeeR3dZb5y2H1EXimVQlCFUk62aTFCUAEoly/8oKHVYax9rLNLNKve1bV7sbV9pz+inUPBak1FHTRcrKaBq+sjE0vG5ltvpbF42atHrcMqLJtYkcidSMka53u6RzqdWYvRJUQSwLxSwyxrue1W+ZyoqKnHsXlTmXlGm+vBkAEGyoAAN3ybn0cTYnThnZ7un8h0Ac45Xv0cVpV+vMnbBKnmdHHNt+l8eAAMlgAAAAAAAAAAAAAAAAqDPuT6VG36tUq+1YUT4KW+UnnvNeqp4+jTK7vyOT5FL6/pF4rUEA6mabkmJIH3w+l10scXpJY4++5G+Z1eiHNWX9KkuI0jbX/ALQ1/tiRZb+4dKmG7sXxDmPhrRaivqouaolcifUeusandeh04UJnPSJHiKvRP72nhkVedyaUXwjb4Ear7MmiIQZGKnSoAIgsQNiy+dbE6T/XRO1qp5nSpy/wNl0cQpF+10yd6RrfM6gOfb1fEABksAAAAAAAAAAAAAAAAFBZ0y6WJW6FNA3xe/5y/TnHNCXSxWqXmdC1Puwxoviimmr6RlxqygXB0swmxBIG85N02niTHejgnem+zY/zC/Smciae9RUydGCNv4j1X8ouY5tv00x4FRZ70n0qWbkVs8a70Vjm/F/YW6aBnXS6eHpJ6Kpid7HI6O3a9OwjC+MoXih1UECx1s0kEgD92AP0aumdzVdKvZKxTqk5KZNq3JJ0XI72t2+R1oi3Ofd/F8UgAxWAAAAAAAAAAAAAAAADmDhtUazEKt32udvcerPlOnzlHGJdZUTv6VRO7vSOXzNtXVcn5LkoYkm6jK4IJsBc2RFPaGpl5XTRM7jFd+apaJpOT1Hq8NY61lllmkXvatPdjQ3Y5M75yrScDW8x6bW4ZVN5oVk/CcknyGyH48YptdTzRdOCVneYrfMiXxUuVHGKk6V7L1IoudrIQlDFCAEnFvOrcEn1lNBJ04IXd5iL5nKbjpngBJpYbRrzUsLe41G+RhuXxbAADBYAAAAAAAAAAAAAAAB86mXQY5/Ra53YlzkiFVsl+OyX3nU/CqfV0VVJ0KSpd3YnL5HK7U2G+n+q5MghBJsoyQXBlHEr1RicblRqb3bPMDp/gjSamhpYl420sCO9fQRXeNz1yGNRERE4kRETchJxNQAAco4xTaqeaK1tXPMzuPc3yPxmyZjU2qxOrZxXm00/3WtlVe16mtnZjfTOoJQgEoZOXYdE5Sy6WFU9+RahvsbPIieFjnNToLJeS+GMTozVCdr1d8xlt4ti3oAHOuAAAAAAAAAAAAAAAA1/MB1sMreujqG95it8zmNDpHNSfQwqqXnZGzvysZ8xzc031cVyZEoQShsoyPS4NQ6yspY7X0qumRfV1rdLwueYbVldT6zFKZLbGule7qRsT1Re9okZX0mOjgAcbQAAFDZ4UmhiDZLbJKaNb872ue1fBGFfFw5+0d2Uk/RkmiXr02ten7t3apTh1a7/AMqXqQY3Fy6rIvLIeW9DM3o1j7blihX43KNLiyBn/q6uPmkgf32vb+WZ7flbFbIAOZcAAAAAAAAAAAAAAABo2dD7YVMnSlpU7JmO+U58aX7ng+2FuTnqKdPeVfIoJqHRq4pkyJRCEMjVUN8yTj0sSX6tJO734m/MaEWPkPDetnk6NIrfxJGL+WUz+atOryAByrgAA0POmmR+GOev+HPA9OpVdq/hIpz/AHOj81odPCqpOZkT+5Kx/wApzeh0auK5JIBBqqyUtHIGa1RVM6UEDu496fmFWqWBkXLbEnp0qKdPakkK+SlNnymL9AByrgAAAAAAAAAAAAAAAK8z0ciYZvqoLb7OX4IpQiPOq+EOA09fCtPUs02aTXIiOc1yPbxOa5qoqLtVNyqaZWZNYc/9B9RD6sjXJ/yNca4ZyRFnlRKPGsLlkyRg/VrJk9ZkLvgiH4psjnfq4gm51MvxSXyNP2RX8VTLIXB/4/0f0aufkc6niTexHvd4SMPOkySqU/RrIXb45W/BVLJ4A8Fv/V0y06yJK50z5HPRmgiqqNan0br+qxvKUzzlnpMjZQAYrAAA8jhdRrPQ1ULUu59JUNb66xuRvjY5Wa46/cl9ilWw5IUifpVVSqcSaP8AR27E4rqrFupprzk6ixSlyEL2gyXw9q3dNVP6nPgRPdiRfE9GLKbCU44JHb6iqT9l6Gn7Yj8XPFzeslHWxRvXT1CX9jXeRbceXOFNS39CjXesrl7XOVT0sJ4LUNI5H09LDE9EVEe1jdbZeNNNfpW9pTLZLCR7AAMlgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH//Z"
+        "name": "Editorial profile",
+        "skills": [
+            "Editing- Language skills- English- publication skills"
+        ],
+        "type": [
+            "intern"
+        ],
+        "info": "Research, write, and organize information in a professional manner. Assist the US writing and editing team with the high-level editing of proposal and marketing material during times of heavy volume.",
+        "salary": "not disclosed",
+        "location": [
+            "Kolkata",
+            "Bangalore",
+            "Hyderabad"
+        ],
+        "company": "pwc",
+        "image": "https://cdn.rundlemall.com/images/stores/P/pwc/_1200x630_fit_center-center_82_none/pwc-logo.jpg?mtime=1645496390"
     },
     {
-        "name": "Theta",
-        "color": "green",
-        "type": "pant",
-        "info": "testing description",
-        "price": "Rs. 100",
-	"seller": "Pepe Jeans",
-	"image": "data:image/jpeg;base64,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"
+        "name": "Associate HR",
+        "skills": [
+            "Talent Acquisition, Talent Management, Interpersonal communication skills, Teamwork, Analytical skills, Time Management, Community Outreach"
+        ],
+        "type": [
+            "Full-time"
+        ],
+        "info": "We are looking for an Associate - HR who will be responsible for the recruitment, onboarding, people management and exit at our organization.",
+        "salary": "not disclosed",
+        "location": "Chennai",
+        "company": "Shraddha Maanu Foundation",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR990-xi-RQ7jQRQDODA8Hg5s-ojtIeS0IHh7I8zq-BsB9d5i8cXb3-4qBAPL3FG_v0d8&usqp=CAU"
     },
     {
-        "name": "Eta",
-        "color": "yellow",
-        "type": "pant",
-        "info": "testing description",
-        "price": "Rs. 110",
-	"seller": "Calvin Klein",
-	"image": "data:image/jpeg;base64,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"
+        "name": "Software Engineer",
+        "skills": [
+            "Data Structures and Algorithms",
+            "Java",
+            "node js/ javascript",
+            "Cloud Ecosystems"
+        ],
+        "type": [
+            "Full-time"
+        ],
+        "info": "We are looking for a talented and dedicated Engineer to join our team in India. You will work as part of a team that builds end-to-end product functionality, turning ideas into polished, production-ready software.",
+        "salary": "20lpa CTC",
+        "location": "Bangalore",
+        "company": "Alteryx",
+        "image": "https://yt3.ggpht.com/ytc/AKedOLSRtWBoGK7R9D5G_lP6dfqfLDayr0b5wB5PZsE7=s900-c-k-c0x00ffffff-no-rj"
     },
     {
-        "name": "Iota",
-        "color": "red",
-        "type": "tshirt",
-        "info": "testing description",
-        "price": "Rs. 120",
-	"seller": "Levi's",
-	"image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOMAAADeCAMAAAD4tEcNAAABAlBMVEW6AAD///+5AAC2AACzAACwAACtAACrAACnAACjAACiAACaAACfAACZAAC/AACSAACNAACJAACGAACCAADDAADqtrbvxsZ9AAB2AADu7u7o6Ojh4eHc4uK/S0v56en77+/x1dVyAADy0tL99/f24OBrAADhkZHrubnYfHzbiYnWcnLKPj7GKSnjp6fEMjLHQkLhvr7uwsLUMzOmHBzTICDloKDgc3PUVFTYY2PhiIjprq7LJCTQTk7Rw8PS1tfjy8vi1NTCFRXRdna5Pj6+Ly/Mn5/JXV21amq8e3u2VVW8ZWXampqxGhq5QUHbrq7OfHypVFSnSEimOzumLCy4MjKzcnLBVFjQAAAXqElEQVR4nN2daWPURpqA5aqSVLrV3bJhdoPt2I4BY3NkljPMEMjAkJDAHtn//1e2Lkkl1VsldaOW2KkPGLCOevSedXsH//rFW7oCM5Q9MR7/GB5uecuTv/7HxV7qsifGp1WV4OryePQNx5dVUFTV5V5qsw/G44d5nieBl1fXl2cjrj99+mOVk7hgd/20D1FOznh+95mfe14eU8z+zKvq+eUTuzyPjy6fV1WeezhIEn4beXZ4MnWVpmU8u2QSqUKPlTAliP8UnNWPL14+PTw6uzg+Pjk5OT6+ODs6fPryxY8V52NoHiJhFvGrKbv/p/tjpD++TMd4cvhCVlgykkQxKlCB2im5xBMFk7DwJaO4uHrxarwxD5WJGE8vr5sa5z7mf96KUO6NLYgkt8XPoH4IE+coYx5RJmA8v3tVaSJhFeUSyYskjQKUD3PmOQrSrFhVXPq4I/vq2d3z5RmPb17nPQ5UUaF1iU98GtOAeFZQ9gsS8GsCWqT8Iq6q3Qvy10+/Vmu/ilHXUIMRlSFBCGE/jGIaBj7BCDcWyv5O/CCkcRT6GCHiRyURH6ZC/cfxiHJ5ugzj2cvKIp9caFxVRr7UPAYqiKK/ffd3Wb77e8SpGTZiTIw3TISqYh98Itfal7sb546MZ/cqh6FJQYZZoLtWhnJ6cM7Ni/1x3IrU42KkhYgcof2hDPPejpi7MJ7dc3sSpaz5iglSh8Rv/lKXnzXfwtU5XYsnRqaqToC5NePF/cpRjZpGeNY4C4kOid/8W100RqapQVTwJMcjZNAL59Xl1unedoznN9fDgFyQQvPydcq0VVPKx/9el5aROx+abEaIsSkPb/bHeHrF/SQrCA3UJfe5l8xpQX0NEv3tu7r8XP8nN8YwLWPOiIOxSUN+tY2jHc/45CEDJIT4rLAfhKPa6qAEWZWZDol+uVOXP9T/cY8bRNla6H80wgqa8uBocsbTa65VDDAIwroI749B0JyIcIfWaei3Nonaov7NHhkwTRWaS+DAYS0Px8pyJOONV4c5HrlpFKdpksYR5cHdB0RaWyQtJST4IZBIBGiyirexRq2MbFKPY7xbV0oUZpFMorpAlUT1OuYiflRZDWnUHynEtCwEXLglIC9Pp2O8qGsF2GDL3QFBVUDEj7JIWcoqKFH3LiylWJbCDHG4tRhZGRUuxzCeKzsRIBYDNArTVnFhVZYMUslZKyq9S8qV9DTxLohePqZZMobxUV1tbo6EjIT0pEl6VbFKYuWfJCeWys71NFtJKW7nU722Bg+mYbxsH42ZFQb+WEppkqiKN0UaCefUFk4YJcUmkWzU26I93VH7+1MwnuqPZ6klDbkTGVOX3JOQOV6XWRpR7ptkCXizKs3KjZ+L2lKUj9VU1LeXYZMcZux8YKZoQcRq65MRdaohmb7GmzJLUh5rWKEs+KQJI0yVglI8FpGbMelG5fzrGV/034IITVmj1x8hSpTnkapInm7WRcY4eUmyolxv0rr1EnkjEYVD8Ps+4cXXMh5CbwpSpnohGQNZRepb5JWfrDfrVVmWK/YzC+oGKI7zcYiIO2KRXvUi2NCowwDjieV7hlmWUn9M1aqwCe555TFz5prutS3sIBznURERCVZEfaNRkA/0Og8wPrC+MS6yOBijr5UX2SVOIjQqLiKfO6kkpbxXyAjSAwHEzfjJ9dZ0nCiRVxELJYn8yhvjvEgYJ0xzZCcY9zq96OXO6ZyMF+43+2lCR4kyr4h5IQoiUo2xREbIImkRy44T4XYMr+7snnQyDjX6GWUcjosiVe5TWnfvsDBLaeCNJAyihIlQ3SoyQFN7rndlvN9/nVklJgw6JoowjcyrivsN4RkJqpjXGUdIU2aF9aWYN+18oBXjamY5GE+NF0I5HApG6asnP5EY2ZEjVWPuYISRbvM8zYrYvwFIR0+Wg/GtyQjC4CAYo68N6fiszQ+7qQZT8SjmyEDj5+0ujC+Bl1oEhv1R+rpV4fl/76mY662QKtTAsyfnVsZTwPiwVV54dItrXOEdPf3PxjLlJBGICHybtXvHymhoqnixXVygse5aECAoHMSZRLR80bfbMt4D3+y7ctRJBWk+PWCZldIjSzvdpq0WRkBTBaO/Vw5HQX5UJKT+u8UyLNpqYQQ0VbqB/QrLWhhiltaGggOLzVi0FWb80jy78yLGOLn/HFd8mtCmLsTGaNFWkLHR1J7UWMAa0WjcQyE0Cdu6BFZGBGYCIGOtqf1wzRiD/UC4CwlT7b0otOccP41lbPJUgHGX3uyvLTiMdV+HqSOvgrQVYLxoh2D6LyMhnd/psPSmYyG+ixHSVoDxp+bhAKOjTb+ngoOwa32hixFqZZmMl40YDUbelps7QqJ+vEJtOxQsZivLYLywIwrGmQ0S+f0GMY7dLVZk9AkYjA+ba2HGeQ0SEcM2/HSgVf5wiPFTK0bzQZwxnjULACoRDjGiT27G43a2F6DznDGd0+lAdhelUB99Z7LTsZPxUXMdlPaK/qMZnQ7UZYBSmFG/9JGL8aYVI+SeBeMSWYBWSJIC/XJdSHRjZzxpp9KArRfBGO2j5uOLn8WDjB46sTLeaS6ytPj5RJN0oeaVKjSDu3S7YeCOjfFuO8GLwJkES6uSZKHmlSqxhbHrgtFdmPG81VRbxw1nzJZpXqmCUhtjV5DoHGS80qzRkhByxmKx/g5Rg8zG2I126APEeKRpqi0hFIyLOlZSWBlR57/xEcCo/do6p0EwLupYfRdjVzIm4xdNU60zGgRjOmWdty1BWViHyrpeBL3rM562v3b07POu6jJZMniEZZHaGHuCxKc9xmvtSvvEFMGYzR089PBOHYz9qP62y/hJm/sc2JuggrGYn7GtD10V9hF61JUOuq8zHmtT2O29l4IxK8u5A+R4xl5AwBca4y8dMdp7SyTj7N0d2nwcui4Te/uxFxHQP1rGV2XzZZAx6td5RhBn5WruPlZ9FIszRtbe+q4gEU7f14znOC/8ejaCS4weCeNstZ49CegyZg5GfSgEkSwS05M44wfk1ZDm4G2nLMSoKStdr3gSYL2yndeC/ILk6LVkFEmchGQOx9V3iUiYFqsNnbD6o4qmrHSzdgQPDiBlhDAtxJqRQ8Eo+0I4JJ9l4Oq7FIzr5Rkd07uUrTFTlBNHET5njOdKDxgkJqEjcHDx06UY61qFm02ROBiFIBEiRSDn4eG3nPHgooEMAvfkW8aYFJtbCzA2WRpjdAUP7nWYmIJCTolF+Er5nNPaosvYPfUWM8ZyeUaHY+VyCFmAq9R9h018PEMSmmwi52wikcotw1ibULi5NcBIqFxoyPX0WMtzBCSzRn/l7OoXac5mfnv0cDOTI1gzOcaBPZ1Efhlj6XbqrgCVkx/xiaEBDbyCOvyqlONm/o4A1GN0BI+gYPGPWRxqO1nrttURxoRP96/S1A5JBOP8OYBo70n19FdORhQWOQ54dMjbiSxNP8ARCfhkf1T5hT2t52uH1ssyli5GRJm3YRYZBo/AfrmzSIzPotwrQssTJOPsObmc/STVyy/XpaWnnEsxY1ER4TD6cnAAMR5cBMpdVQmsr2JaN3vHMoxSdKSQjJBjZbYoAj8OPh9YGA/OH6o9CypmuAAky/QE4/wdrHz2k1RWByNLwmX61l+e1B23eiblZ9FXybhaoBNZMvIakWzFGKFEhyGKsIjy/tSO3vjjqzrlqbLYnNbBGYtVscBgACaqXYs5IzSSzFJU+dOcdd0fK7+oan0Ns76+KsYlBjx4qi2UFSdKjr26ISy7CxEyJz+ac1de1PqKiu6sESQZy4UYpUHitCyy2JyhgxOxKh2hJwYQNAfpaaOvBcXd91DOuMTgHEvCZMvWwohTKhoaGFqxA82XO1X66nWTnpoxXYTRl80+HJdFYjCiKJVR4yWAY5m/+lzpa0WTFlIxFg3jjGMCnFEoK4oKydhZExElEhFeCmmZh3yJlFEGWQOJFWM9Q2f0Qo2pGLmyImowIhxLKSLL+jnbnPmz3IBkjGJxF12AkTf8hLIKxkhnRDiVO0SgtxYW69qHk2usIJW6IsGYZoVqYo5fcDNFYXmkAGMNiyyJwqDpGEA4kbsnoMq2V4BjLdJzBRlKSJ5r0Cgt6gxo0gUdIxhZ69YXjEKOdb8TIplcm44q62pW17q5Kx2Sr3cOaVz88zHdOyO0QA/Lph8KH38s+JJvKUiW3cg16cixYNe5/vGdhKwoc6VSVZPHB29Uujp2U4upGPmSSSY8n9UgrZWV5ahy8wR07djUwr1W96qF5Isro1/Zk06Jeuk+Gc2tTyQj9sgbVq/fYpHa1Wm4h50rkgfWXNeQUco38xHNMjWqvkdGhExIpkZUbEogR8Afc14c1IjuLQKG9gf4oCDTNLwj1eFCMrrWl+2BUcxl54se1Cj/+YeAUNle9ERH8VcwNt61eK/+40KNmczMKOZAc+HVTafPWY04tB3S8H4dj0TT9M9m3utxzWjUYqqAaWdkyoqbivzltdiFCL8aIhixt8xDhIg2fflEMhrTzaCKfQWiaZB+FLGQQbQYcUMQwsP7k43ZI+jttT55WTLiPiNYsWkZxUanOuPByQM8YtfA7fd7PMfyjb3WzfSMvW/IGPnOWP72m87usKelYOxPG0RyQ6/9MXLHymK/729f4R0YiXhhr9dIblO1b0a+4+5cjMiYU1fvvjYNI8YmI3OscToXIxaq6vfNBU8FaWeMUhrOwyjnf/Rdzh4YAafD0oBZGHPRJWAyurfy3JLRFCRnTGI6j8+5ll3z+2JEdsYwTenvszA+FD26vdAhdyeaUI5GIOK7X6dJ9I9ZGB9xVd0fo0I0gy17a5rEf87C+NoT07F6H1nubTctY0+QfMfd+I9ZGD94xO8N5IoNcf1pGQFl9WmW3hmu4BSMfMsmYqoqtHPwDshOxiT9dRbGK+SHAKMvNw3u13frHNbFGCbJu+EKTsB4j2+FYLocgHGnxojcQg5IKKRj/TgL430+WanPyDdI7jM2yfVWkKiOtYZxC8faX2y8H8ZLAjH6BiOyJGU7M4olpu+HKzgB4ycS9sfjxQ7VAGMdA7aB1BmN4EGTz8MVnILRp7TbKSc3cLYwAk2IAcZmH1koK388H6PpcvqMaGdGpBhNp8My1nkYL4PICB1ik32DEcNBYIgROxjjeRjvBzHgcgK5q36PkWwvSBcjczrzMH4JYcYwABjJ1oKsGYEMn4/Wz8P4jsb9TjkbYyOPrRnNAwg86VjnYbyiUX8jRpgR787o+6CyssbAPLHjQ0T7M4DEWVVdRqmqPhgExjGaguT9D/Mw3ulPA0ZDjFs1uVCd/C7J+Ms2jKDO7c5IZmL8HXarVsYtu0B0xn5Tjf1iHsYgghgpwKjOFxp95keP0Wxyz8Zo7AvGzzYKTUbhbXdnBLsVCJmH0ZjpLFWVUhuj7fAkF2MAM+K5GPurKyRjBDLCdR3BCBxDJBi3PXZ5J8bzuN9HLswxmpzRh5wOnocxAhhDKk8u0Y/r6jCOh5T9mPDHmYvxpO9yxCwzmDEIA/iMLxfiN8B4bDASIk4dNRhJy7iFstaM0ElvCM3EGJI+ow8xNon6toy4ZjT7a9ljB2fjTMF40V+WLV0OP2MnsDBu5XQEY/NxFmLsL8uWLsfK6Dhd8BtmNDM5fhAMyEhDWOcciM6Pg7wtz/DcjfG0b47CrcKM/MCvfx3G1MJId2a03DgPY3/gRrocO6MxDjKK0fZxxh35uADjFidfaIzgx5mJEXSrCcAoWlzhdoxeh9G8cR5GBDCK87UmZoRvHHkG69SM3K0mJqPQYdl03kVXLQa5BKNyqz1GpDMKu9qSkVq8VT4PY69OcokSY+ysglI1jaJtHesQ44hzO6dnJA0jNRl5ph7uyghpeQ6u4tw/ozh3VDD6NsbxBtloAGzJ+b1ZGLunw0q3moCM7Bfxtk7nm2C8gBkzkDHdnbG25B7jwJqcPTHylZ8WxoifaT7I2N12W2MMTY+8DKNwOZmNMR1k7M370Bgp4K3yZ/MzqtCRFYpRr2mgGENT5bqC0yEbbwVreT54iu4UjMddRlEfJyMdYOyOa7WMoAYsxChcjsnIOyzitHY6VkY1UUn/N2kZg2+BUXpPK2MyhpGYjDzkghqQP1+GkbnVgjHGPUYujKR2rHZGMfmjVdaWEfw6+esFGJXLsTKmg4zdgS2NUd3ZCR75wFnI0zCeGIyxlVGmsdJ12Bk7jqVlBO+ch7EjRzSGkQ4x+gBjagmtzlOC98MoNdJklAGAp+rcrHzr7vwetjOCBgmeKLdvRu5WC5AxHMEoZ772GH3xUJjx7SKMkcmIdEblOlyM2q+RmiWSWlxyNQdjJ5er92IpbYzZQPAQIwkWRtAlL8CoXA5jTGDGxB08RHdQCDI2LvmbZoySEYxibKPfoScZIVNeiDGxMxbC6bgY5eCWhTH6BhiRDIJZaTISuTPUEKMcMNCOmmgYM9jpLMEoQscAI3UxBoKRmIywmi/AqNwqyMh3MZPSCHzrKUT8CTS0MAIqYN21akpGvV+uCR1lyWpkMsr8Z4CRytkSMKOhAvnsjLVbXZmMfs2YSs8BMsp8N9K2t1eMsosoNm917Fu1R0bmVlcOxsTJKJoY+n5xHcbUdKyLMHK3OshoS+aQ6oSFGOFbc+O41f0yNm7VwphKxtjNGKUpDfVeS43RvHUWxjOdUTgHwVjsyCjG2TXHCjJqem7sBDwDo3CraxtjOcAo98nke8YAjLVP/kYZVUrOcryCB8itGVUfkRwo6sQdbf/4WRgbt9pjRDoj9452Rtkhom0aazCG3VOM8rPhKs7MWNbCsDGKzFRzrA1jodmyzji8R9fXMx7l3RpytwozRl1GKEBifpWRBhqM2veZhfGsx8jNcb0WjKGdMQAZZehgwb65tcMI6XkObFw9OWMrxyZ0rDduRr4NFZiwMkY1PmswJsKWTT3P7w5XcWLGyMWYNIyhjVE2TnRG3DCCep5vP9n6qxmTmjHrMKrm42qYkffqJXETPDQ5gvcuwCjc6gZg9GtG0WNnYcQqGdKCRzNSwhmLxRmxGHpkbtXCGHcY4dMyBhjNexdglOYIMlLBKBTOziiTNh53AEZpkF3H+s0ximR9kFHcG/g2RrogYxs6blkYM5HI1rKAGTkMd6yBfq+yAS24LsgYuRjTLiOQzKlTFkoteNQTtCSjcjrLMgq3OswIJ6wqdDCdTGyMhlOenVG51Vu3hhmhQxcFY8adbxIDjOvWmJdibEOHwYgbxnUjiyHGgPQYV6Axz88o3erOjPKi1Uo41m+a8ZadcbNeORixGNpiOikZUa3ngWKsP5BuzN8UI//laiNl4WIsHIzAB5qVUQsdNsZCZwSO3VLhkcmrTQI0RvADzc/I2gzc5QwxpnBSjoOaUQQPVN8rhh97Ny/FWLvV2yBjxBk3LkblVjdrLUDqjCLs9m6el7ENHQCjL0xtJONGC5B9RtGA1hzrrIyty7ndY9Saj7oozIRVMq45Y8YCZIcx0xj18cmZGOX+hkpVGeL339++talHPEQJ+GJ6Xv1b3WqKadXtFonSrdbhlW+wrm4V433KzotaC+Sk7HkYw5jPVy14lyOrxu3vf/jhBw4pBRZFURynaSIF/IP63UrF8rqEIeUg8gvxa/glTF/jOFI3MwsQv/j+Nn80V3g+uSyi1J+lz4ofFpRXVV5HN6WrIh1DOS9qahFvW61FYs0I+ZhwU9Ryc9VX0Nhjfa/seyxVszRWvVZiZl0wD2PeuNVIuRzQHrkms9ApZRA17j/Xhkt0XWV3C5tr7VHF3c7d8/qcNnTcHsEo4njf5/AUIKsZE5hRfqG2i3lmxjZ0SMa4z5gVrPobezKHxTXsIynGOgnQGDcNY/2FZmTMPaJix0qqlBruqO1R5ORt7AA7OxqDvsUT1rC5Ww5PZ7x/wfxAszCeMn9T/fTg+dW9+59uPj9+8+bnny9kOT09Ozt68uTu4aubp5eX9798+e23//yv//6fv3Inw1sOeZXLUsmSe7//+cevv/3zfz9+/PTp5ubw7t0nR0dnp6Kcnb15/Pjx5/fvP336+OXdhw+vH1zL22YZ7zjYfoKMvO385JiViwv2x8n5jg85ON9+WscujP/vyv8BGbfvppALNVoAAAAASUVORK5CYII="
+        "name": "Technology Analyst, Digital Banking Support",
+        "skills": [
+            "Finacle",
+            "BFSI",
+            "Java J2EE",
+            "Oracle SQL"
+        ],
+        "type": [
+            "Full-time"
+        ],
+        "info": "Technology Analyst, Internet Banking Noida HO Candidate should have extensive experience in Finacle (FEBA) Retail Internet E-banking product Customization and implementation.",
+        "salary": "not disclosed",
+        "location": "Noida",
+        "company": "shivalik",
+        "image": "https://pbs.twimg.com/profile_images/1386385869213290498/iloLIE_H_400x400.jpg"
     },
     {
-        "name": "Kappa",
-        "color": "blue",
-        "type": "tshirt",
-        "info": "testing description",
-        "price": "Rs. 90",
-	"seller": "U.S. Polo Assn.",
-	"image": "data:image/jpeg;base64,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"
+        "name": "Full Stack Intern",
+        "skills": [
+            "Java",
+            "Python",
+            "Scala",
+            "Web development with any UI framework"
+        ],
+        "type": [
+            "intern"
+        ],
+        "info": "Deliver web applications/enhancements from idea inception and validation for a scalable solution.",
+        "salary": "17k - 22K per month",
+        "location": "Mumbai",
+        "company": "Digite, Inc.",
+        "image": "https://media-exp2.licdn.com/dms/image/C560BAQGmcEaTmN7b8Q/company-logo_200_200/0/1519856340079?e=2147483647&v=beta&t=wm9OARSMkLtSFgby2LxUp7ZBNp0iFsoqsCtihVVL0gs"
     },
     {
-        "name": "Lambda",
-        "color": "green",
-        "type": "tshirt",
-        "info": "testing description",
-        "price": "Rs. 100",
-	"seller": "FILA",
-	"image": "data:image/jpeg;base64,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"
+        "name": "Academic Counsellor",
+        "skills": [
+            "sales",
+            "telesales",
+            "being empathetic",
+            "good listening skills"
+        ],
+        "type": [
+            "Full-time"
+        ],
+        "info": "We are looking for smart young people who are passionate about engaging with students and parents and ethically sell transformational career guidance product to them.",
+        "salary": "not disclosed",
+        "location": "Delhi",
+        "company": "iDreamCareer",
+        "image": "https://assets.jobsforher.com/uploads/v3/companies/employer/4621/idreamcareer-logo-1540984410.png"
     },
     {
-        "name": "Mu",
-        "color": "yellow",
-        "type": "tshirt",
-        "info": "testing description",
-        "price": "Rs. 110",
-	"seller": "Jack & Jones",
-	"image": "data:image/jpeg;base64,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"
+        "name": "Javascript Developer",
+        "skills": [
+            "Javascript",
+            "OOPS"
+        ],
+        "type": [
+            "intern"
+        ],
+        "info": "Enthusiastic women candidates with 1-3 years of experience having strong Javascript and OOPs skills.",
+        "salary": "not disclosed",
+        "location": "Bangalore, Noida, Chennai, Nagpur",
+        "company": "global-logic",
+        "image": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/bmpcglw3rxipjxnctyan"
     },
     {
-        "name": "Nu",
-        "color": "red",
-        "type": "shorts",
-        "info": "testing description",
-        "price": "Rs. 120",
-	"seller": "United Colors of Benetton",
-	"image": "data:image/jpeg;base64,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"
+        "name": "Account Manager",
+        "skills": [
+            "capital equipment selling",
+            "territory management",
+            "key account management",
+            "product & market knowledge"
+        ],
+        "type": [
+            "Returnee Program"
+        ],
+        "info": "Has thorough knowledge of the products responsible, and maintains a good understanding of customers needs, as well as competitive developments in the market place.",
+        "salary": "not disclosed",
+        "location": "Mumbai/ Kolkata/ Bangalore",
+        "company": "Johnson & Johnson",
+        "image": "https://pbs.twimg.com/profile_images/1101560913885315074/9KHsZD7M_400x400.png"
     },
     {
-        "name": "Pi",
-        "color": "blue",
-        "type": "shorts",
-        "info": "testing description",
-        "price": "Rs. 90",
-	"seller": "Jockey",
-	"image": "https://lh3.googleusercontent.com/proxy/VqhslKALFdcaqa5bbIhwKZ6gTWU8RkSG9bNAsfJXqYNcdEql-9JJTyJtEEzU7c9FoWYU9Z2YnJvXo1InGa_7iXKbFoVwmhA-alA1hBFdHX8rI7KPcRZgs_5owYx5r6qUtCW3c5tinq0"
+        "name": "ServiceNow Developer",
+        "skills": [
+            "advanced javascript",
+            "jquery",
+            "xml",
+            "prototype",
+            "angular js"
+        ],
+        "type": [
+            "Returnee Program"
+        ],
+        "info": "We are hiring ServiceNow professionals for our Cloud & Infra Unit under the Mindtree Returnship Program targeted at professionals who have taken a break in career & want to restart their career.",
+        "salary": "not disclosed",
+        "location": "Bangalore",
+        "company": "Mindtree",
+        "image": "https://assets.jobsforher.com/uploads/admin/blogs/FS9dszCRrumindtree-logo.jpg"
     },
     {
-        "name": "Rho",
-        "color": "green",
-        "type": "shorts",
-        "info": "testing description",
-        "price": "Rs. 100",
-	"seller": "Levi's",
-	"image": "https://www.nicepng.com/png/full/366-3664639_quick-view-green-shorts-png.png"
-    },
-    {
-        "name": "Sigma",
-        "color": "yellow",
-        "type": "shorts",
-        "info": "testing description",
-        "price": "Rs. 110",
-	"seller": "Tommy Hilfiger",
-	"image": "data:image/jpeg;base64,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"
+        "name": "Office Assistant & Data Entry Operator",
+        "skills": [
+            "data entry",
+            "computer operator",
+            "digital marketing",
+            "online advertising",
+            "online publishing"
+        ],
+        "type": [
+            "Full-time/Freelance/Part-time"
+        ],
+        "info": "Enthusiastic women candidates with experience in digital marketing and data entry.",
+        "salary": " 5 - 6 Lpa",
+        "location": "Chennai, Kolkata, Bangalore, Delhi",
+        "company": "NBM CREDIT SERVICES",
+        "image": "https://assets.jobsforher.com/uploads/v3/companies/120d6929140d5fabfdc0ac8c397f92.png"
     }
 ]

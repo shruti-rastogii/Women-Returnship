@@ -22,13 +22,13 @@ body {
 }
 
 .imageShape {
-  object-fit:cover; 
+  object-fit:contain; 
   height:140px; 
   width:120px;
 }
 
 .imageBig {
-  object-fit:cover; 
+  object-fit:contain; 
   height:400px; 
   width:360px;
 }
@@ -54,7 +54,7 @@ body {
   width: 800px;
   display: flex;
   border-radius: 10px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   align-self: center;
 }
