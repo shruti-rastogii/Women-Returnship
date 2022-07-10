@@ -37,6 +37,15 @@ body {
   width: 100%
 }
 
+.cartTitle {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  text-decoration-color: lightcoral;
+}
+
 .cartlist{
   display: flex;
   justify-content: center;

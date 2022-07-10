@@ -38,6 +38,7 @@ const Login = React.memo((props) => {
 const App = () => {
   const [page, setPage] = React.useState("home")
   const [cart, setCart] = React.useState([]);
+  const [courseCart, setCourseCart] = React.useState([]);
   const [loggedin, setLoggedin] = React.useState(false)
   const [prodInfo, setProdInfo] = React.useState({})
   const [prev, setPrev] = React.useState("")
@@ -50,8 +51,8 @@ const App = () => {
           "jobs": loggedin ? <Jobs page={page} setPrev={setPrev} setPage={setPage} setProdInfo={setProdInfo} data={data} cart={cart} setCart={setCart} /> : <Login setLoggedin={setLoggedin} loggedin={loggedin} />,
           "login": <Login setLoggedin={setLoggedin} loggedin={loggedin} />,
           "info": <Info item={prodInfo} setPage={setPage} prev={prev} cart={cart} setCart={setCart} />,
-          "applications": loggedin ? <Cart page={page} setPrev={setPrev} setProdInfo={setProdInfo} items={cart} setCart={setCart} setPage={setPage} /> : <Login setLoggedin={setLoggedin} loggedin={loggedin} />,
-          "courses": loggedin ? <Courses page={page} setPrev={setPrev} setPage={setPage} setProdInfo={setProdInfo} data={datac} cart={cart} setCart={setCart} /> : <Login setLoggedin={setLoggedin} loggedin={loggedin} />
+          "applications": loggedin ? <Cart page={page} setPrev={setPrev} setProdInfo={setProdInfo} items={cart} courseItems={courseCart} setCart={setCart} setCourseCart={setCourseCart} setPage={setPage} /> : <Login setLoggedin={setLoggedin} loggedin={loggedin} />,
+          "courses": loggedin ? <Courses page={page} setPrev={setPrev} setPage={setPage} setProdInfo={setProdInfo} data={datac} cart={courseCart} setCart={setCourseCart} /> : <Login setLoggedin={setLoggedin} loggedin={loggedin} />
         }[page]
       }
       <div className="navbar" style={{ backgroundColor: "lightcoral"}}>

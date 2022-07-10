@@ -22,7 +22,7 @@ const Jobs = React.memo((props) => {
     }
     var searchcount=0;
     props.data.map(function (item, i) {
-      if((skills==="any" || skills===item.skills) && (type==="any" || type===item.type) && (!search || !search.length || item.name.toLowerCase().includes(search.toLowerCase())))
+      if((skills==="any" || item.skills.includes(skills)) && (type==="any" || type===item.type) && (!search || !search.length || item.name.toLowerCase().includes(search.toLowerCase())))
         searchcount+=1
     })
     if (!props.data.length)
@@ -50,7 +50,7 @@ const Jobs = React.memo((props) => {
         </div><div>
         Search: <input id="search" onChange={()=> updatesearch()}></input></div>
         </div><div className="products">{props.data.map(function (item, i) {
-          if((skills==="any" || skills===item.skills) && (type==="any" || type===item.type) && (!search || !search.length || item.name.toLowerCase().includes(search.toLowerCase())))
+          if((skills==="any" || item.skills.includes(skills)) && (type==="any" || type===item.type) && (!search || !search.length || item.name.toLowerCase().includes(search.toLowerCase())))
         return <Card page={props.page} setPrev={props.setPrev} setPage={props.setPage} setProdInfo={props.setProdInfo} update={forceUpdate} info={item} key={i} wishlist={props.wishlist} cart={props.cart} setWishList={props.setWishList} setCart={props.setCart}/>
         if (searchcount===0 && i==0)
           return <NothingHere test="yes"/>

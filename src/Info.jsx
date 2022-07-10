@@ -27,7 +27,11 @@ const Info = (props) => {
         }
         </div>
         </div>
-      <div style={{margin:"2rem", fontSize:"20px", marginTop:"0.5rem"}}>Skills: {props.item.skills}</div>
+      <div style={{margin:"2rem", fontSize:"20px", marginTop:"0.5rem"}}>Skills: {props.item.skills.map((item,index,skills)=>{
+        if (index+1===skills.length)
+          return item
+        else
+          return item+", ";})}</div>
       <div style={{margin:"2rem", fontSize:"20px", marginTop:"0rem"}}>Type: {props.item.type}</div>
       <div style={{margin:"2rem", fontSize:"20px", marginTop:"0rem"}}>Location: {props.item.location}</div>
       <div style={{margin:"2rem", fontSize:"20px", marginTop:"0rem"}}>Salary: {props.item.salary}</div>
