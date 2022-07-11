@@ -2,31 +2,36 @@
     {
         "name": "Master Data Structures and Algorithms",
         "organization": "AccioJob",
+        "skills": "Software Development",
         "Description": "Through our PRATIGYA initiative, we will contribute part of the course fee towards training women on full-stack web development and get you placed in product-based companies. It is the perfect opportunity for women to kick start their tech careers or change their career domain to software development.",
         "curriculum": [
             "Module I - Data Structures and Algorithms  Linear DSA, Trees & Graphs.OOP concepts, RecursionDynamic Programming",
             "Module II - Frontend EngineeringHTML & CSS Javascript basics + ES6,ReactJS + ReduxJS",
             "Module III - Backend EngineeringREST APIs, NodeJS ExpressJS, MongoDBSQL, System Design & Deployments"
         ],
-        "duration": "6 month online program",
+        "duration": "6 month",
+        "type": "Online",
         "price": "Free",
         "image": "data:image/png;base64,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"
     },
     {
         "name": "Post Graduate Management Programme for Women",
         "organization": "SPJIMR",
+        "skills": "Project Management",
         "Description": "PGMPW is the only full-time management programme for women who wish to return to their full time professional careers.The programme aims to impart relevant knowledge, skills and attitude which can enable participants to upskill themselves with generalist orientation, functional focus and return to their professional careers after a break.",
         "curriculum": [
             "2.5 months onboarding online learning modules to orient participants to a rigorous management programme and instill habits to appreciate new learning.",
             "Students are mandated to complete a corporate internship of 5 weeks & 2-day social immersion programme."
         ],
         "duration": "11-month Full-Time at Mumbai",
+        "type": "Physical",
         "price": "Free",
         "image": "https://assets.jobsforher.com/uploads/v3/partner_offerings/417af4f1a8973a6103b5cf270c7443.jpg"
     },
     {
         "name": "Full Stack Web Development",
         "organization": "Geekster",
+        "skills": "Software Development",
         "Description": "Learn Programming Fundamentals, Data Structures & Algorithms, Core CS concepts and Full Stack Web Development. Prepares you for MNCs, Product Companies and Startups.",
         "curriculum": [
             "Programming Fundamentals / Java Fundamentals / Core CS Concept",
@@ -39,12 +44,14 @@
             "Capstone Project, Interview Preparation, Mock Interviews"
         ],
         "duration": "11 months",
+        "type": "Hybrid",
         "price": "Rs. 10,000",
         "image": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/hrfuw6izobbgonnwjdzq"
     },
     {
         "name": "Data Science Fundamentals with Python and SQL Specialization",
         "organization": "IBM",
+        "skills": "Data Science",
         "Description": "Data Science is one of the hottest professions of the decade, and the demand for data scientists who can analyze data and communicate results to inform data driven decisions has never been greater. This Specialization from IBM will help anyone interested in pursuing a career in data science by teaching them fundamental skills to get started in this in-demand field.",
         "curriculum": [
             "Tools for Data Science",
@@ -53,12 +60,14 @@
             "Statistics for Data Science with Python"
         ],
         "duration": "11 months",
+        "type": "Hybrid",
         "price": "Free",
         "image": "https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg"
     },
     {
         "name": "Google Data Analytics",
         "organization": "Google",
+        "skills": "Data Science",
         "Description": "In this program, you'll learn in-demand skills that will have you job-ready in less than 6 months.",
         "curriculum": [
             "Foundations: Data, Data, Everywhere",
@@ -67,12 +76,14 @@
             "Process Data from Dirty to Clean"
         ],
         "duration": "6 months",
+        "type": "Physical",
         "price": "Rs. 25,000",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3rGl88y-nWJXR32N6HFkmYMYaK4SCQdNcRP8SYPAWcyPZ3nHzeruwkRApGrdOwGabSxo&usqp=CAU"
     },
     {
         "name": "API Development on Google Cloud's Apigee API Platform",
         "organization": "Google Cloud",
+        "skills": "Software Development",
         "Description": "In this course, you learn how to create APIs that utilize multiple services and how you can use custom code on Apigee. You will also learn about fault handling, and how to share logic between proxies. You learn about traffic management and caching.",
         "curriculum": [
             "Traffic Management",
@@ -81,12 +92,14 @@
             "Advanced Topics"
         ],
         "duration": "15 hours",
+        "type": "Online",
         "price": "Rs. 35,000",
         "image": "https://www.datamation.com/wp-content/uploads/2021/08/Google-Cloud-Logo.png"
     },
     {
         "name": "Human Resource Management",
         "organization": "University of Minnesota",
+        "skills": "HR Management",
         "Description": "Become a better manager of people. Develop strategies and skills for hiring, managing performance, and rewarding employees.",
         "curriculum": [
             "Preparing to Manage Human Resources",
@@ -96,23 +109,27 @@
             "Human Resources Management Capstone: HR for People Managers"
         ],
         "duration": "6 months",
+        "type": "Physical",
         "price": "Rs. 15,000",
         "image": "https://i.pinimg.com/564x/46/7d/cb/467dcb01ede0205f0e1259fcf398f219.jpg"
     },
     {
         "name": "Financial Markets",
         "organization": "Yale",
+        "skills": "Financial Analysis",
         "Description": "An overview of the ideas, methods, and institutions that permit human society to manage risks and foster enterprise.  Emphasis on financially-savvy leadership skills. Description of practices today and analysis of prospects for the future. Introduction to risk management and behavioral finance principles to understand the real-world functioning of securities, insurance, and banking industries.  The ultimate goal of this course is using such industries effectively and towards a better society.",
         "curriculum": [
             "The course divided into 7 modules curated to deeply understand financial markets."
         ],
         "duration": "33 hours",
+        "type": "Online",
         "price": "Rs. 50,000",
         "image": "data:image/png;base64,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"
     },
     {
         "name": "Introduction to Cyber Security Specialization",
         "organization": "NYU: Tandon School of Engineering",
+        "skills": "Software Development",
         "Description": "Introduction to Cyber Security was designed to help learners develop a deeper understanding of modern information and system protection technology and methods. The learning outcome is simple: We hope learners will develop a lifelong passion and appreciation for cyber security, which we are certain will help in future endeavors.",
         "curriculum": [
             "Introduction to Cyber Attacks",
@@ -121,12 +138,14 @@
             "Enterprise and Infrastructure Security"
         ],
         "duration": "4 months",
+        "type": "Hybrid",
         "price": "Rs. 37,000",
         "image": "https://engineering.nyu.edu/sites/default/files/2019-01/tandon_stacked_color.jpg"
     },
     {
         "name": "HTML, CSS, and Javascript for Web Developers",
         "organization": "Johns Hopkins University",
+        "skills": "Software Development",
         "Description": "In this course, we will learn the basic tools that every web page coder needs to know. We will start from the ground up by learning how to implement modern web pages with HTML and CSS. We will then advance to learning how to code our pages such that its components rearrange and resize themselves automatically based on the size of the user's screen.",
         "curriculum": [
             "Introduction to HTML5",
@@ -135,6 +154,7 @@
             "Using Javascript to Build Web Applications"
         ],
         "duration": "40 hours",
+        "type": "Online",
         "price": "Free",
         "image": "https://yt3.ggpht.com/ytc/AKedOLTjmW-q95sF21SGnQGK6xXpikx8l3yyVcH9-x6oGg=s900-c-k-c0x00ffffff-no-rj"
     }

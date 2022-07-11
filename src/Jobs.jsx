@@ -31,17 +31,18 @@ const Jobs = React.memo((props) => {
         <div className="cartitem" style={{width:"95%", alignSelf:"center"}}>
           <div>
         Filter by role: <select name="skills" id="skills" onChange={()=> updaterole()}>
-        <option value="Any">Any</option>
+        <option value="any">Any</option>
         <option value="Data Science">Data Science</option>
         <option value="UIX">UIX</option>
         <option value="Product Manager">Product Manager</option>
         <option value="Software Developer">Software Developer</option>
         <option value="Digital Marketing">Digital Marketing</option>
         <option value="HR Manager">HR Manager</option>
+        <option value="Finance">Finance</option>
         </select>
         </div><div>
         Filter by type: <select name="type" id="type" onChange={()=> updatetype()}>
-        <option value="Any">Any</option>
+        <option value="any">Any</option>
         <option value="Internship">Internship</option>
         <option value="Full-time">Full-time</option>
         <option value="Part-time">Part-time</option>

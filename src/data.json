@@ -17,11 +17,12 @@
         "name": "React.js Developer",
         "skills": [
             "ReactJS",
-            "JASON"
+            "JASON",
+            "Software Developer"
         ],
-        "type": "Intern",
+        "type": "Internship",
         "info": "Shall able to write client-side internet application logic, front-end elements in JavaScript. Needs brief perception of React.js and its main principles with good analytical skills.",
-        "salary": "not disclosed",
+        "salary": "25lpa CTC",
         "location": "Bangalore",
         "company": "Tejas Networks",
         "image": "https://s3-symbol-logo.tradingview.com/tejas-networks--600.png"
@@ -32,12 +33,10 @@
             "Java and J2EE",
             "Kubernetes",
             "Linux",
-            "Git"
+            "Git",
+            "Software Developer"
         ],
-        "type": [
-            "Full-time",
-            "Mid-Senior level"
-        ],
+        "type":"Full-time",
         "info": "Looking for a remote Senior Java Developer who needs to develop high-quality software, design, identify, prioritize and execute tasks in the software development life cycle",
         "salary": "22lpa CTC",
         "location": "Pune",
@@ -48,11 +47,10 @@
         "name": "DB Developer",
         "skills": [
             "PL/SQL- Unix",
-            "ETL"
+            "ETL",
+            "Software Developer"
         ],
-        "type": [
-            "Full-time"
-        ],
+        "type": "Full-time",
         "info": "Experienced with design and implementation of databases",
         "salary": "15lpa CTC",
         "location": "Bangalore",
@@ -62,11 +60,15 @@
     {
         "name": "Compliance Analyst",
         "skills": [
-            "Firm compliance / Risk Compliance-Mutual Fund / Capital Market-Mortgage / Audit Communication BRS - Bank reconciliation statement / Brokerage / Account"
+            "Firm compliance",
+            "Risk Compliance-Mutual Fund",
+            "Capital Market-Mortgage",
+            "Audit Communication BRS",
+            "Brokerage",
+            "Account",
+            "Finance"
         ],
-        "type": [
-            "Full-time"
-        ],
+        "type": "Full-time",
         "info": "Having some exposure to the financial markets and possess knowledge of financial terminologies and financial instruments. Ability to interpret policy and apply them consistently. Must have good analytical skills",
         "salary": "10lpa CTC",
         "location": "Kolkata",
@@ -74,33 +76,35 @@
         "image": "https://cdn.rundlemall.com/images/stores/P/pwc/_1200x630_fit_center-center_82_none/pwc-logo.jpg?mtime=1645496390"
     },
     {
-        "name": "Editorial profile",
+        "name": "Editorial Profile",
         "skills": [
-            "Editing- Language skills- English- publication skills"
+            "Editing",
+            "English",
+            "Publication",
+            "Digital Marketing"
         ],
-        "type": [
-            "intern"
-        ],
+        "type": "Internship",
         "info": "Research, write, and organize information in a professional manner. Assist the US writing and editing team with the high-level editing of proposal and marketing material during times of heavy volume.",
-        "salary": "not disclosed",
-        "location": [
-            "Kolkata",
-            "Bangalore",
-            "Hyderabad"
-        ],
+        "salary": "8lpa CTC",
+        "location": "Hyderabad",
         "company": "pwc",
         "image": "https://cdn.rundlemall.com/images/stores/P/pwc/_1200x630_fit_center-center_82_none/pwc-logo.jpg?mtime=1645496390"
     },
     {
         "name": "Associate HR",
         "skills": [
-            "Talent Acquisition, Talent Management, Interpersonal communication skills, Teamwork, Analytical skills, Time Management, Community Outreach"
+            "Talent Acquisition", 
+            "Talent Management", 
+            "Interpersonal communication skills", 
+            "Teamwork", 
+            "Analytical skills", 
+            "Time Management", 
+            "Community Outreach",
+            "HR Manager"
         ],
-        "type": [
-            "Full-time"
-        ],
+        "type": "Full-time",
         "info": "We are looking for an Associate - HR who will be responsible for the recruitment, onboarding, people management and exit at our organization.",
-        "salary": "not disclosed",
+        "salary": "12lpa CTC",
         "location": "Chennai",
         "company": "Shraddha Maanu Foundation",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR990-xi-RQ7jQRQDODA8Hg5s-ojtIeS0IHh7I8zq-BsB9d5i8cXb3-4qBAPL3FG_v0d8&usqp=CAU"
@@ -111,11 +115,10 @@
             "Data Structures and Algorithms",
             "Java",
             "node js/ javascript",
-            "Cloud Ecosystems"
+            "Cloud Ecosystems",
+            "Software Developer"
         ],
-        "type": [
-            "Full-time"
-        ],
+        "type": "Full-time",
         "info": "We are looking for a talented and dedicated Engineer to join our team in India. You will work as part of a team that builds end-to-end product functionality, turning ideas into polished, production-ready software.",
         "salary": "20lpa CTC",
         "location": "Bangalore",
@@ -128,13 +131,13 @@
             "Finacle",
             "BFSI",
             "Java J2EE",
-            "Oracle SQL"
+            "Oracle SQL",
+            "Finance",
+            "Software Developer"
         ],
-        "type": [
-            "Full-time"
-        ],
+        "type": "Full-time",
         "info": "Technology Analyst, Internet Banking Noida HO Candidate should have extensive experience in Finacle (FEBA) Retail Internet E-banking product Customization and implementation.",
-        "salary": "not disclosed",
+        "salary": "15lpa CTC",
         "location": "Noida",
         "company": "shivalik",
         "image": "https://pbs.twimg.com/profile_images/1386385869213290498/iloLIE_H_400x400.jpg"
@@ -145,13 +148,12 @@
             "Java",
             "Python",
             "Scala",
-            "Web development with any UI framework"
+            "Web development with any UI framework",
+            "Software Developer"
         ],
-        "type": [
-            "intern"
-        ],
+        "type": "Internship",
         "info": "Deliver web applications/enhancements from idea inception and validation for a scalable solution.",
-        "salary": "17k - 22K per month",
+        "salary": "17k - 22k per month",
         "location": "Mumbai",
         "company": "Digite, Inc.",
         "image": "https://media-exp2.licdn.com/dms/image/C560BAQGmcEaTmN7b8Q/company-logo_200_200/0/1519856340079?e=2147483647&v=beta&t=wm9OARSMkLtSFgby2LxUp7ZBNp0iFsoqsCtihVVL0gs"
@@ -159,16 +161,14 @@
     {
         "name": "Academic Counsellor",
         "skills": [
-            "sales",
-            "telesales",
-            "being empathetic",
-            "good listening skills"
+            "Sales",
+            "Telesales",
+            "Being empathetic",
+            "Good listening skills"
         ],
-        "type": [
-            "Full-time"
-        ],
+        "type": "Full-time",
         "info": "We are looking for smart young people who are passionate about engaging with students and parents and ethically sell transformational career guidance product to them.",
-        "salary": "not disclosed",
+        "salary": "10lpa CTC",
         "location": "Delhi",
         "company": "iDreamCareer",
         "image": "https://assets.jobsforher.com/uploads/v3/companies/employer/4621/idreamcareer-logo-1540984410.png"
@@ -177,31 +177,29 @@
         "name": "Javascript Developer",
         "skills": [
             "Javascript",
-            "OOPS"
+            "OOPS",
+            "Software Developer"
         ],
-        "type": [
-            "intern"
-        ],
+        "type": "Internship",
         "info": "Enthusiastic women candidates with 1-3 years of experience having strong Javascript and OOPs skills.",
-        "salary": "not disclosed",
-        "location": "Bangalore, Noida, Chennai, Nagpur",
+        "salary": "30lpa CTC",
+        "location": "Bangalore",
         "company": "global-logic",
         "image": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/bmpcglw3rxipjxnctyan"
     },
     {
         "name": "Account Manager",
         "skills": [
-            "capital equipment selling",
-            "territory management",
-            "key account management",
-            "product & market knowledge"
+            "Capital equipment selling",
+            "Territory management",
+            "Key account management",
+            "Product & market knowledge",
+            "Product Manager"
         ],
-        "type": [
-            "Returnee Program"
-        ],
+        "type": "Part-time",
         "info": "Has thorough knowledge of the products responsible, and maintains a good understanding of customers needs, as well as competitive developments in the market place.",
-        "salary": "not disclosed",
-        "location": "Mumbai/ Kolkata/ Bangalore",
+        "salary": "27lpa CTC",
+        "location": "Mumbai",
         "company": "Johnson & Johnson",
         "image": "https://pbs.twimg.com/profile_images/1101560913885315074/9KHsZD7M_400x400.png"
     },
@@ -212,13 +210,12 @@
             "jquery",
             "xml",
             "prototype",
-            "angular js"
+            "angular js",
+            "Software Developer"
         ],
-        "type": [
-            "Returnee Program"
-        ],
+        "type": "Part-time",
         "info": "We are hiring ServiceNow professionals for our Cloud & Infra Unit under the Mindtree Returnship Program targeted at professionals who have taken a break in career & want to restart their career.",
-        "salary": "not disclosed",
+        "salary": "23lpa CTC",
         "location": "Bangalore",
         "company": "Mindtree",
         "image": "https://assets.jobsforher.com/uploads/admin/blogs/FS9dszCRrumindtree-logo.jpg"
@@ -226,18 +223,16 @@
     {
         "name": "Office Assistant & Data Entry Operator",
         "skills": [
-            "data entry",
-            "computer operator",
-            "digital marketing",
-            "online advertising",
-            "online publishing"
+            "Data Entry",
+            "Computer Operator",
+            "Digital Marketing",
+            "Online Advertising",
+            "Online Publishing"
         ],
-        "type": [
-            "Full-time/Freelance/Part-time"
-        ],
+        "type": "Part-time",
         "info": "Enthusiastic women candidates with experience in digital marketing and data entry.",
         "salary": " 5 - 6 Lpa",
-        "location": "Chennai, Kolkata, Bangalore, Delhi",
+        "location": "Chennai",
         "company": "NBM CREDIT SERVICES",
         "image": "https://assets.jobsforher.com/uploads/v3/companies/120d6929140d5fabfdc0ac8c397f92.png"
     }
