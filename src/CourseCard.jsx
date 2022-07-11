@@ -2,10 +2,10 @@ import React from "react"
 
 const Card = React.memo((props) => {
     return <div className="card">
-      <div className="cardhead" onClick={()=>{props.setPrev(props.page); props.setPage("info"); props.setProdInfo(props.info); props.update()}}>
+      <div className="cardhead" onClick={()=>{props.setPrev(props.page); props.setPage("courseInfo"); props.setProdInfo(props.info); props.update()}}>
         {props.info.name}
       </div>
-      <div className="cardhead" style={{height:"140px"}} onClick={()=>{props.setPrev(props.page); props.setPage("info"); props.setProdInfo(props.info); props.update()}}>
+      <div className="cardhead" style={{height:"140px"}} onClick={()=>{props.setPrev(props.page); props.setPage("courseInfo"); props.setProdInfo(props.info); props.update()}}>
       <img className = "imageShape" src={props.info.image}/>
       </div>
       <div className="cardoptions">

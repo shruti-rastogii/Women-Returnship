@@ -7,6 +7,7 @@ import GLogin from './Login';
 import Logout from './Logout';
 import Jobs from './Jobs'
 import Info from './Info'
+import CourseInfo from './CourseInfo'
 import Navbar from './Navbar'
 import Cart from './Cart'
 import Courses from './Courses'
@@ -23,9 +24,7 @@ const Login = React.memo((props) => {
       <div className="cartlist" style={{ width: "100%", alignItems: "center" }}>
         <div style={{ textDecoration: "underline", textDecorationColor: "lightcoral", fontSize: "40px", margin: "4rem", marginTop: 0 }}>Welcome Shruti!</div>
         <div className="cartlist" style={{ width: "100%", flexDirection: "row", margin: "3rem" }}>
-          <button className="login" style={{ margin: "1rem" }}>View order history</button>
           <button className="login" style={{ margin: "1rem" }}>Give a review</button>
-          <button className="login" style={{ margin: "1rem" }}>Sell an item</button>
           <button className="login" style={{ margin: "1rem" }}>Edit Profile</button>
         </div>
         <Logout setLoggedin={props.setLoggedin} />
@@ -51,6 +50,7 @@ const App = () => {
           "jobs": loggedin ? <Jobs page={page} setPrev={setPrev} setPage={setPage} setProdInfo={setProdInfo} data={data} cart={cart} setCart={setCart} /> : <Login setLoggedin={setLoggedin} loggedin={loggedin} />,
           "login": <Login setLoggedin={setLoggedin} loggedin={loggedin} />,
           "info": <Info item={prodInfo} setPage={setPage} prev={prev} cart={cart} setCart={setCart} />,
+          "courseInfo": <CourseInfo item={prodInfo} setPage={setPage} prev={prev} cart={courseCart} setCart={setCourseCart} />,
           "applications": loggedin ? <Cart page={page} setPrev={setPrev} setProdInfo={setProdInfo} items={cart} courseItems={courseCart} setCart={setCart} setCourseCart={setCourseCart} setPage={setPage} /> : <Login setLoggedin={setLoggedin} loggedin={loggedin} />,
           "courses": loggedin ? <Courses page={page} setPrev={setPrev} setPage={setPage} setProdInfo={setProdInfo} data={datac} cart={courseCart} setCart={setCourseCart} /> : <Login setLoggedin={setLoggedin} loggedin={loggedin} />
         }[page]
